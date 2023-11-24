@@ -163,6 +163,7 @@ dimension: salary {
     {% endif %} ;; 
 } 
 --------------------------
+# Working with Actions  
 dimension: actions { 
 
     group_label: "Actions" 
