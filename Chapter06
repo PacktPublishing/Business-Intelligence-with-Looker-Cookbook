@@ -6,4 +6,40 @@
 
   } 
 ------------------------
+view: users_france { 
 
+derived_table: { 
+
+    sql: 
+
+    SELECT * 
+
+    FROM users 
+
+    WHERE country = "France" 
+
+    ;; 
+
+  } 
+------------------------
+test: user_id_is_unique { 
+
+  explore_source: users { 
+
+    column: id {} 
+
+    column: count {} 
+
+    sorts: [users.count: desc] 
+
+    limit: 1 
+
+  } 
+
+  assert: users_id_is_unique { 
+
+    expression: ${users.count} = 1 ;; 
+
+  } 
+
+} 
