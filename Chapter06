@@ -22,24 +22,14 @@ derived_table: {
 
   } 
 ------------------------
-test: user_id_is_unique { 
-
-  explore_source: users { 
-
-    column: id {} 
-
-    column: count {} 
-
-    sorts: [users.count: desc] 
-
-    limit: 1 
-
-  } 
-
-  assert: users_id_is_unique { 
-
-    expression: ${users.count} = 1 ;; 
-
-  } 
-
-} 
+test: order_id_is_unique {
+  explore_source: orders {
+    column: order_id {}
+    column: count {}
+    sorts: [orders.count: desc]
+    limit: 1
+  }
+  assert: order_id_is_unique {
+    expression: ${orders.count} = 1 ;;
+  }
+}
