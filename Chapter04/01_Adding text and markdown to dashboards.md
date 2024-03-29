@@ -1,14 +1,5 @@
+# Adding text and markdown to dashboards
 
+```
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Looker.svg/2560px-Looker.svg.png">
-
----------
-
-  always_filter: { 
-
-    filters: [ 
-
-      users.country: "United States" 
-
-     ] 
-
-  } 
+```
