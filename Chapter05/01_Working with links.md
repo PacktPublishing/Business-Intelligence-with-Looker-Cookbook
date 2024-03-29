@@ -20,15 +20,15 @@ link: {
   }
 ```
 ```
-    link: { 
-      label: "{{value}} Analytics Dashboard" 
-      #url: "/dashboards/1925?Country={{ _filters['users.country'] | url_encode }}" 
-      url: "/dashboards/1925?Country={{ value | encode_uri }}" 
-    }
+  link: { 
+    label: "{{value}} Analytics Dashboard" 
+    #url: "/dashboards/1925?Country={{ _filters['users.country'] | url_encode }}" 
+    url: "/dashboards/1925?Country={{ value | encode_uri }}" 
+  }
 ```
 ```
-    link: {
-      label: "{{value}} Analytics Dashboard"
-      url: "/dashboards/1925?Country={{_filters['users.country'] | url_encode }}"
-    }
+  link: {
+    label: "{{value}} Analytics Dashboard"
+    url: "/dashboards/1925?Country={{_filters['users.country'] | url_encode }}"
+  }
 ```
