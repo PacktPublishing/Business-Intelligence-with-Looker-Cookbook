@@ -31,7 +31,7 @@
   } 
 ```
 ```
- dimension: gross_margin { 
+  dimension: gross_margin { 
     type: number 
     value_format_name: usd 
     sql: ${sale_price} - ${inventory_items.cost} ;; 
@@ -46,7 +46,7 @@
   } 
 ```
 ```
- measure: total_gross_margin_percentage { 
+  measure: total_gross_margin_percentage { 
     type: number 
     value_format_name: percent_2 
     sql: 1.0 * ${total_gross_margin}/ nullif(${total_sale_price},0) ;; 
