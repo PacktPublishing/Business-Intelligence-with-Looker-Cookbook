@@ -14,7 +14,7 @@
   }
 ```
 ```
- dimension: full_name { 
+  dimension: full_name { 
     type: string 
     sql: ${first_name} || ' , ' || ${last_name};; 
   }

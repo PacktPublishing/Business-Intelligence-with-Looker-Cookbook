@@ -1,7 +1,7 @@
 # Working with filters in LookML views 
 
 ```
-dimension: is_sold { 
+  dimension: is_sold { 
     type: yesno 
     sql: ${sold_raw} is not null ;; 
   } 
@@ -16,7 +16,7 @@ dimension: is_sold {
   } 
 ```
 ```
-measure: sold_percent { 
+  measure: sold_percent { 
     type: number 
     value_format_name: percent_2 
     sql: 1.0 * ${sold_count}/(CASE WHEN ${count} = 0 THEN NULL ELSE ${count} END) ;; 

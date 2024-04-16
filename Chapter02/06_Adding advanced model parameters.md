@@ -12,7 +12,7 @@ named_value_format: percent_with_no_decimals {
 }
 ```
 ```
-measure: sold_percent { 
+  measure: sold_percent { 
     type: number 
     value_format_name: percent_with_no_decimals 
     sql: 1.0 * ${sold_count}/(CASE WHEN ${count} = 0 THEN NULL ELSE ${count} END) ;; 
