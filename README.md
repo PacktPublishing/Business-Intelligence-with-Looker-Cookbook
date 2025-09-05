@@ -1,3 +1,6 @@
+
+<b><p align='center'>[![Packt Sale](https://static.packt-cdn.com/assets/images/packt+events/Improve_UX.png)](https://packt.link/algotradingpython)</p></b> 
+
 # Business Intelligence with Looker Cookbook
 
 <a href="https://www.packtpub.com/product/business-intelligence-with-looker-cookbook/9781800560956?_gl=1*1evex2w*_gcl_au*NzkyOTIxOTY1LjE3MTI3MjM0MTE.*_ga*MTI3MTI1MDc3LjE3MDQ4NzY0MzU.*_ga_Q4R8G7SJDK*MTcxMzc2MzM1My4zNS4xLjE3MTM3NjMzNjMuNTAuMC4w"><img src="https://content.packt.com/_/image/original/B16393/cover_image_large.jpg" alt="no-image" height="256px" align="right"></a>
